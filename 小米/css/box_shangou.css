@@ -1,0 +1,45 @@
+.box_shangou .title{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+    padding-left: 16px;
+}
+
+.box_shangou .goods .left1,.box_shangou .goods .left2,.box_shangou .goods .mid,.box_shangou .goods .right1{
+    float: left;
+}
+.box_shangou .goods .right2{
+    float: right;
+    background-color: #fff;
+}
+.box_shangou .goods .left1 img{
+    width: 234px;
+    height: 340px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+.box_shangou .goods .left2 img{
+    width: 234px;
+    height: 340px;
+    margin-left: 14px;
+    background-color: #fff;
+}
+.box_shangou .goods .mid img{
+    width: 234px;
+    height: 340px;
+    margin-left: 14px;
+    background-color: #fff;
+}
+.box_shangou .goods .right1 img{
+    width: 234px;
+    height: 340px;
+    margin-left: 14px;
+    background-color: #fff;
+}
+.box_shangou .goods .right2 img{
+    width: 234px;
+    height: 340px;
+
+}

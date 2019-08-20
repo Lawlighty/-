@@ -1,0 +1,90 @@
+.box2{
+    margin-top: 20px;
+}
+.box2 .left1{
+    width: 234px;
+    height: 170px;
+    background: rgb(95,87,80);
+    float: left;
+}
+.box2 .left2{
+    width: 316px;
+    height: 170px;
+    background: bisque;
+    float: left;
+    margin-left: 20px;
+
+}
+.box2 .right1{
+    width: 316px;
+    height: 170px;
+    background: green;
+    float: right;
+}
+.box2 .right2{
+    width: 316px;
+    height: 170px;
+    background: chartreuse;
+    float: right;
+    margin-right: 20px;
+}
+
+.left1 ul{
+    position: relative;
+}
+.left1 ul li {
+    display: block;
+    width: 75px;
+    height: 85px;
+    position: absolute;
+    text-align: center;
+}
+.left1 ul .l1{
+    top: 2px;
+    left: 0;
+}
+.left1 ul .l2{
+    top: 2px;
+    left: 80px;
+}
+.left1 ul .l3{
+    top: 2px;
+    left: 160px;
+}
+.left1 ul .l4{
+    top: 77px;
+    left: 0;
+}
+.left1 ul .l5{
+    top: 77px;
+    left: 80px;
+}
+.left1 ul .l6{
+    top: 77px;
+    left: 160px;
+}
+.left1 ul li a{
+    color: rgb(195,192,189);
+    display: block;
+    padding-top: 20px;
+}
+.left1 ul li a:hover{
+    color: #fff;
+}
+.left1 ul li:before,.left1 ul li:after{
+    position: absolute;
+    content: "";
+    background: #665e57;
+}
+.left1 ul li:before{
+    top: -1px;
+    left: 6px;
+    width: 64px;
+    height: 1px;
+}
+.left1 ul li:after{
+    top: 6px;
+    left: 0;
+    width: 1px;
+    height: 70px;
+}

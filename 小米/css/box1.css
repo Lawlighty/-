@@ -1,0 +1,39 @@
+.box1{
+    width: 100%;
+    height: 460px;
+
+}
+
+.box1 .box1_bg a{
+    display: block;
+    height: 460px;
+    background: url("../image/bd992964bb997a45b8fb833d193adb22.jpg") center top ;
+    /*position: relative;*/
+}
+
+.box1 .dingw{
+    position: relative;
+}
+.dingw .left{
+    position: absolute;
+    height: 90px;
+    top: -264px;
+    left: 270px;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.dingw .right{
+    position: absolute;
+    height: 90px;
+    top: -264px;
+    left: 1165px;
+}
+
+.ii{
+    font-size: 45px;
+    color: #e0e0e0;
+}
+.dingw a:hover .ii{
+    color: #fff;
+}

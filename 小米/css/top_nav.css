@@ -1,0 +1,185 @@
+.top_nav{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+.top_nav .nav_logo{
+    width: 55px;
+    height: 100%;
+    /*line-height: 55px;*/
+    /*background-color: red;*/
+    float: left;
+    position: relative;
+}
+.top_nav .nav_logo a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    background: rgb(245,121,35);
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.top_nav .nav_logo a .logo_font{
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+}
+
+.top_nav .nav_logo a .logo_plant{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
+    color: #fff;
+    background: rgb(245,121,35);
+    top: 55px;
+    display: none;
+}
+.logo_font :hover .logo_plant{
+    display: block;
+}
+/*导航*/
+.top_nav .nav{
+    float: left;
+    width: 850px;
+    height: 100px;
+    /*overflow: hidden;*/
+}
+.top_nav .nav ul{
+
+    padding-top: 12px;
+    padding-left: 30px;
+    height: 88px;
+    width: 870px;
+}
+.top_nav .nav >ul> li{
+    float: left;
+}
+
+.top_nav .nav ul li.nav_c{
+    width: 165px;
+    height: 100%;
+    /*background: gold;*/
+    padding-right: 10px;
+    position: relative;
+
+}
+/*促销活动div*/
+.top_nav .nav ul .nav_c .active{
+    position: absolute;
+    width: 234px;
+    height: 460px;
+    background: rgba(105,101,101,.6);
+    z-index: 999;
+    top: 88px;
+    left: -85px;
+}
+.top_nav .nav ul .nav_c .active .active_ul{
+    padding: 20px 0;
+    height: 420px;
+    width: 100%;
+    text-align: left;
+}
+.top_nav .nav ul .nav_c .active .active_ul li{
+    display: block;
+    height: 42px;
+    width: 100%;
+    line-height: 42px;
+}
+
+ul.active_ul li a{
+    display: block;
+    height: 100%;
+    width: 204px;
+    padding-left: 30px;
+    color: #fff;
+    position: relative;
+    /*text-align: right;*/
+}
+ul.active_ul li a:hover{
+    background: #ff6700 ;
+}
+ul.active_ul li a i{
+    color: #e0e0e0;
+    position: absolute;
+    right: 20px;
+}
+/*跳出促销*/
+.top_nav .nav>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+}
+.top_nav .nav ul li.nav_c>a{
+    display: block;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background: url("../image/cms_15373613641608_oBmfS.gif") 50%;
+    background-repeat: no-repeat;
+
+
+}
+.top_nav .nav ul li.nav_item a{
+    padding: 0 12px;
+    color: #333;
+}
+.top_nav .nav ul li.nav_item a:hover{
+    color: #ff6700;
+}
+.top_nav .search{
+    float: right;
+    width: 300px;
+    height: 100px;
+    /*background: gray;*/
+    line-height:100px;
+}
+.top_nav .search .J_searchForm{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.top_nav .search .J_searchForm input{
+    border: 1px solid #e0e0e0;
+}
+.top_nav .search .J_searchForm input#sss{
+    height: 49px;
+    padding: 0 10px;
+    position: absolute;
+    left: 59px;
+    top: 25px;;
+}
+.top_nav .search .J_searchForm input.iconfont{
+    height: 51px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    top: 25px;;
+    font-size: 20px;
+}
+.top_nav .search .J_searchForm input.iconfont:hover{
+    background: #ff6700;
+}
+.top_nav .search .J_searchForm .search_tuijian
+{
+    position: absolute;
+    text-align: right;
+    height: 50px;
+    right: 62px;
+}
+.top_nav .search .J_searchForm .search_tuijian a{
+    display: inline-block;
+    margin-left: 5px;
+    height: 20px;
+    background: #eee;
+    font-size: 12px;
+    padding: 0 5px;
+    line-height: 20px;
+}

@@ -1,0 +1,22 @@
+.footer .slogan{
+    display: block;
+    margin: 30px auto 0;
+    width: 267px;
+    height: 19px;
+    background: url(//s02.mifile.cn/assets/static/image/slogan2016.png) no-repeat center 0;
+    /*移出底部并隐藏*/
+    text-indent: -100em;
+    overflow: hidden;
+}
+.footer .info{
+    height: 171px;
+    text-align: center;
+    position: relative;
+    /*line-height: 171px;*/
+}
+.footer .info img{
+    display: inline-block;
+    margin:auto;
+    position: absolute;
+    top: 0;  left: 0;  bottom: 0;  right: 0;
+}
